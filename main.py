@@ -1,4 +1,9 @@
-x = input("What's your name?").strip()
+print("Are you ready to start your journey here?")
+input("Y/N")
+print("Let's start")
+x = input("What's your name?")
 y = input("How old are you?")
 
-z = input(f"Welcome {x} ").capitalize()
+print(f"So you are {y} years old?")
+input("y/n")
+print("That's good!")
